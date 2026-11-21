@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1536" viewBox="0 0 1024 1536" role="img" aria-label="Placeholder portrait, not a photograph of Xosya">
+  <defs>
+    <linearGradient id="body"><stop stop-color="#E7E2DA"/><stop offset=".6" stop-color="#D5DED8"/><stop offset="1" stop-color="#A5CDC7"/></linearGradient>
+    <linearGradient id="head"><stop stop-color="#DCE2DC"/><stop offset=".7" stop-color="#BDCEC5"/><stop offset="1" stop-color="#5D9A90"/></linearGradient>
+    <linearGradient id="fade" x2="0" y2="1"><stop offset=".65" stop-color="white"/><stop offset="1" stop-color="black"/></linearGradient>
+    <mask id="mask"><path fill="url(#fade)" d="M0 0h1024v1536H0z"/></mask>
+  </defs>
+  <g mask="url(#mask)">
+    <path fill="url(#body)" stroke="#6F9F94" stroke-opacity=".45" stroke-width="3" d="M135 1440l36-456c9-116 72-200 178-236l92-32h142l92 32c106 36 169 120 178 236l36 456z"/>
+    <path fill="#C5D5CD" d="M437 643h150v153c-34 48-116 48-150 0z"/>
+    <path fill="url(#head)" stroke="#6F9F94" stroke-opacity=".45" stroke-width="3" d="M512 226c-111 0-173 82-173 192v124c0 111 81 211 173 211s173-100 173-211V418c0-110-62-192-173-192z"/>
+    <path fill="#5B6470" fill-opacity=".25" d="M512 226c-111 0-173 82-173 192v124c0 111 81 211 173 211z"/>
+    <path fill="none" stroke="#7B9B90" stroke-width="2" d="M350 748l162 171 162-171M512 919v520"/>
+    <text x="512" y="1100" text-anchor="middle" fill="#4C625C" font-family="Arial,sans-serif" font-size="100">X.</text>
+  </g>
+</svg>
