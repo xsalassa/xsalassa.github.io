@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 420" role="img" aria-labelledby="heading description">
+  <title id="heading">Daily updates across Microsoft 365</title>
+  <desc id="description">A configured workflow reads a SharePoint workbook, posts a Teams summary and thread and sends corresponding Outlook email. It records history before flagged entry cleanup. This is a conceptual diagram.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" viewBox="0 0 8 8" orient="auto"><path d="M0 0 8 4 0 8Z" fill="#31578b"/></marker>
+  </defs>
+  <rect width="1040" height="420" rx="24" fill="#eef4fb"/>
+  <g font-family="system-ui,sans-serif" fill="#111827">
+    <text x="36" y="57" font-size="30" font-weight="700">Daily updates across Microsoft 365</text>
+    <text x="36" y="90" font-size="17">Conceptual workflow</text>
+    <g fill="#fff" stroke="#a9bdd4">
+      <rect x="36" y="130" width="232" height="90" rx="12"/>
+      <rect x="400" y="130" width="232" height="90" rx="12"/>
+      <rect x="768" y="130" width="232" height="90" rx="12"/>
+      <rect x="400" y="280" width="232" height="90" rx="12"/>
+      <rect x="768" y="280" width="232" height="90" rx="12"/>
+    </g>
+    <g font-size="18" font-weight="650" text-anchor="middle">
+      <text x="152" y="169">SharePoint workbook</text>
+      <text x="516" y="169">Prepare report</text>
+      <text x="884" y="169">Teams</text>
+      <text x="516" y="318">Outlook</text>
+      <text x="884" y="318">Workbook history</text>
+    </g>
+    <g fill="#31578b" font-size="15" text-anchor="middle">
+      <text x="152" y="196">Checklist and progress</text>
+      <text x="516" y="196">Configured workflow</text>
+      <text x="884" y="196">Summary and thread</text>
+      <text x="516" y="345">Corresponding email</text>
+      <text x="884" y="345">Log before flagged cleanup</text>
+    </g>
+  </g>
+  <g fill="none" stroke="#31578b" stroke-width="3" marker-end="url(#arrow)">
+    <path d="M280 175H388"/>
+    <path d="M644 175H756"/>
+    <path d="M516 232V268"/>
+    <path d="M644 325H756"/>
+  </g>
+</svg>
